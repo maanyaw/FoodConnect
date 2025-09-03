@@ -41,7 +41,6 @@
 - **Database:** MongoDB (Mongoose ODM)
 - **Auth:** bcrypt (password hashing)
 - **Mailing:** Nodemailer + Gmail SMTP
-- **Hosting:** (Optional) Heroku / Vercel / Render for backend, Netlify for frontend
 
 ---
 
