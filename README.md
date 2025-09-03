@@ -76,6 +76,10 @@
 <img width="850" height="570" alt="image" src="https://github.com/user-attachments/assets/732ae89e-3a06-4c1e-a1a0-7877fe17a785" />
 <img width="841" height="578" alt="image" src="https://github.com/user-attachments/assets/eeaf777c-3ccc-4594-819f-ea776562550e" />
 
+## 👩‍💻 Author
+
+**Maanya Walia** 
+
 
 
 
