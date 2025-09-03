@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteers Available - Food Connect</title>
+  <link rel="stylesheet" href="css/volunteers.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">FOOD CONNECT</div>
+      <nav class="nav-links">
+        <a href="findfood.html" class="btn yellow">Find Food</a>
+        <a href="foodshelter.html" class="btn green">Food Shelter</a>
+        <a href="donate.html" class="btn donate">Donate</a>
+        <a href="volunteer.html" class="btn red">Volunteer</a>
+        <a href="volunteers.html">Volunteers Available</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero volunteers-hero">
+    <div class="overlay">
+      <h1>Volunteers Available</h1>
+    </div>
+  </section>
+
+  <!-- ===== Volunteers Table Section ===== -->
+  <section class="container table-section">
+    <table class="volunteer-table">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Phone</th>
+          <th>State</th>
+          <th>City</th>
+          <th>Message</th>
+        </tr>
+      </thead>
+      <tbody id="volunteerData">
+        <!-- Data will be filled dynamically -->
+      </tbody>
+    </table>
+  </section>
+
+  <!-- ===== Scripts ===== -->
+  <script src="volunteers.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donate - Food Connect</title>
+  <link rel="stylesheet" href="donate.css">
+</head>
+<body>
+
+  <!-- ===== Navbar ===== -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <div class="logo">FOOD CONNECT</div>
+      <nav class="nav-links">
+        <a href="findfood.html" class="btn yellow">Find Food</a>
+        <a href="foodshelter.html" class="btn green">Food Shelter</a>
+        <a href="donate.html" class="btn donate">Donate</a>
+        <a href="#" class="btn red">Volunteer</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact Us</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero donate-hero">
+    <div class="overlay">
+      <h1>Donate</h1>
+    </div>
+  </section>
+
+  <!-- ===== Donation Form Section ===== -->
+  <section class="container donation-section">
+    <p class="highlight-text">
+      Create an immediate impact in the community. Your donation is used extremely and effectively to help provide food to thousands of people in need every month.
+    </p>
+
+    <form id="donationForm" class="donation-form">
+
+      <!-- Gift Info -->
+      <h3>Gift Information</h3>
+      <label>Donation Amount</label>
+      <input type="number" name="amount" placeholder="Enter amount" required>
+
+      <label>Donation Frequency</label>
+      <select name="frequency" required>
+        <option value="One-Time">One-Time</option>
+        <option value="Monthly">Monthly</option>
+      </select>
+
+      <label>Donation Type</label>
+      <select name="type" required>
+        <option value="Food">Food</option>
+        <option value="Funds">Funds</option>
+        <option value="Other">Other</option>
+      </select>
+
+<input type="number" name="donationAmt">
+<select name="frequency">...</select>
+<input type="text" name="firstName">
+<input type="text" name="middleName">
+<input type="text" name="lastName">
+<input type="text" name="state">
+<input type="text" name="country">
+<input type="text" name="addressLines">
+<input type="text" name="city">
+<input type="text" name="postalCode">
+<input type="email" name="email">
+<input type="email" name="confirmEmail">
+<input type="text" name="phone">
+<input type="text" name="cardNumber">
+<input type="text" name="expirationDate">
+<input type="text" name="cvv">
+
+
+      <button type="submit" class="btn green">Submit</button>
+    </form>
+  </section>
+
+  <!-- ===== Scripts ===== -->
+  <script src="donate.js"></script>
+</body>
+</html>
