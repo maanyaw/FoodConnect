@@ -1,4 +1,49 @@
-# FoodConnect
+# 🍽️ Food Connect
+
+**Food Connect** is a community-first web platform built to bridge the gap between food donors, shelters, and volunteers. Designed with empathy and efficiency in mind, the platform reduces food wastage and tackles hunger by enabling real-time coordination, transparent needs-posting, and seamless food distribution.
+
+---
+
+## 🚀 Features
+
+### 🌐 Frontend
+- Responsive pages built with **HTML, CSS, and JavaScript**.
+- **Home Page** – Overview of Food Connect’s mission.
+- **Find Food** – Browse and locate available food shelters.
+- **Food Shelter** – Register and log in as a shelter to receive donations.
+- **Donate** – Secure donation form with **QR-based payment**.
+- **Volunteer** – Submit volunteer applications.
+- **Volunteers Available** – Admin view to see all registered volunteers.
+- **Contact Us** – Submit inquiries (email notifications powered by Nodemailer).
+- **About Us** – Mission, vision, events, and community impact.
+
+### ⚙️ Backend (Node.js + Express + MongoDB)
+- **MongoDB models**:
+  - `FoodShelter` → shelter signup/signin
+  - `Donation` → donation records
+  - `Volunteer` → volunteer registrations
+  - `Contact` → contact form submissions
+  - `MainpageSubscriber` → newsletter subscriptions
+- **REST API routes**:
+  - `/api/food-shelter` → shelter management
+  - `/api/donations` → donation handling
+  - `/api/volunteer` → volunteer management
+  - `/api/contact` → contact form + email
+  - `/api/mainpage` → newsletter subscriptions
+- **Authentication** with password hashing (**bcrypt**).
+- **Email Notifications** via **Nodemailer** (Gmail SMTP).
+
+---
+## 🛠️ Tech Stack
+
+- **Frontend:** HTML5, CSS3, JavaScript (Vanilla)
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Mongoose ODM)
+- **Auth:** bcrypt (password hashing)
+- **Mailing:** Nodemailer + Gmail SMTP
+- **Hosting:** (Optional) Heroku / Vercel / Render for backend, Netlify for frontend
+
+---
 
 <img width="1112" height="664" alt="image" src="https://github.com/user-attachments/assets/4fb39884-046f-4d48-ab2b-06006344a180" />
 <img width="1106" height="696" alt="image" src="https://github.com/user-attachments/assets/0e82c7d0-2f18-4d33-9b8d-e2fa605267f9" />
